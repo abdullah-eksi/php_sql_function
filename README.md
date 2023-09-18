@@ -1,6 +1,6 @@
 # PHP ile SQL Fonksiyonları Kullanımı
 
-Bu depo, PHP ile MySQL veritabanı ile çalışmak için bazı yardımcı SQL fonksiyonlarını içerir. Bu fonksiyonlar, veritabanına veri eklemek, güncellemek, silmek ve veri almak gibi temel işlemleri kolaylaştırmak için tasarlanmıştır.
+Bu Fonksiyonlar, PHP ile MySQL veritabanı ile çalışmak için bazı yardımcı SQL fonksiyonlarını içerir. Bu fonksiyonlar, veritabanına veri eklemek, güncellemek, silmek ve veri almak gibi temel işlemleri kolaylaştırmak için tasarlanmıştır. fonksiyonları global olarak veritabanına baglıyoruz veritabanı baglantınızı global olarak cağırıp gerekli değişikli yapıp kodları kullanıp veritabanı işlemlerini hızlandırabilirsiniz
 
 ## Fonksiyonlar ve Kullanımı
 
