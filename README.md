@@ -18,7 +18,7 @@ $params =  [
 
 $process = veriekle("kullanicilar", $params);
 
-if ($sonuc) {
+if ($process) {
   echo "Veri başarıyla eklendi.";
 } else {
   echo "Veri eklenirken bir hata oluştu.";
