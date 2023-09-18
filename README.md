@@ -186,14 +186,28 @@ if ($process) {
 
    Bu fonksiyon, belirtilen tablodan verileri çeker ve sonucu istenen şekilde döndürür.
 
-   Örnek Kullanım:
+   Örnek Kullanım 1:
+
+   ```php
+   $tablo = "mesajlar";
+   $sorgu = "WHERE status = 1";
+   $sekil = "ÇOK";
+   $messages = vericek($tablo, $sorgu, $sekil);
+  foreach ($messages as $message) {
+  echo $message["message_id"]; 
+  }
+
+   ```
+
+   Örnek Kullanım 2:
 
    ```php
    $tablo = "mesajlar";
    $sorgu = "WHERE kullanici_id = 1";
-   $sekil = "ÇOK";
-   $messages = vericek($tablo, $sorgu, $sekil);
-   
+   $sekil = "TEK";
+   $message = vericek($tablo, $sorgu, $sekil);
+    echo $message["message_id"];
+
    ```
 
  Bu fonksiyonlar, MySQL veritabanıyla çalışmak için tasarlanmıştır. Başka bir veritabanı türü kullanıyorsanız, bağlantı ayarlarınızı güncellemeniz gerekebilir.
